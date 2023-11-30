@@ -8,10 +8,10 @@ function toggleMode() {
 
   //se tema = light adicionar a imagem light
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "./assets/avatar-light.png")
+    img.setAttribute("src", "./assets/temp-avatar-light.png")
   }
   //se tema = dark adicionar imagem dark
   else {
-    img.setAttribute("src", "./assets/avatar.png")
+    img.setAttribute("src", "./assets/temp-avatar-dark.png")
   }
 }
